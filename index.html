@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shine-utensils</title>
+
+    <!-- ======== bootstrap cdn =========== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- ============= fontawesome icons ========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ===============owl-carousel =============       -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+
+    <!-- ================ AOS-ANIMATION ================= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+
+    <!-- =========stylesheet=============== -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- ============nav bar ============== -->
+
+
+    <nav class=" navbar navbar-expand-md  sticky-top" id="navbar">
+        <div class="container">
+            <a href="" class="navbar-brand"><img src="./images/yello shine with white color.png" alt="Logo image"
+                    data-default-logo="./images/yello shine with white color.png"
+                    data-scrolled-logo="./images/utensil.png">
+            </a>
+            <button class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around"
+                data-bs-toggle="collapse" data-bs-target="#link">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="link">
+                <ul class="navbar-nav text-center ">
+                    <li class="nav-item">
+                        <a href="#myCarousel" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#categories" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                            id="click">CATEGORIES</a>
+                        <div class="dropdown-menu text-center bg-dark" aria-labelledby="#link">
+                            <a href="./pages/cookware/cookware.html" class="dropdown-item">Cookware</a>
+                            <a href="./pages/bakeware/bakeware.html" class="dropdown-item">Bakeware</a>
+                            <a href="./pages/drinkware/drinkware.html" class="dropdown-item">Drinkware</a>
+                            <a href="./pages/serving/serving.html" class="dropdown-item">Serving</a>
+                            <a href="./pages/cutlery/cutlery.html" class="dropdown-item">Cutlery</a>
+                            <a href="./pages/crockery/crockery.html" class="dropdown-item">Crockery</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#comparison" class="nav-link ">COMPARISON</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutpg" class="nav-link ">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactpg" class="nav-link ">CONTACT</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#feedback" class="nav-link ">FEEDBACK</a>
+                    </li>
+
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- ========HOME PAGE============== -->
+    <section>
+        <div class="carousel slide carousel-slide" id="myCarousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="myCarousel" data-bs-slide-to="0"></button>
+                <button data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                <button data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item  active">
+                    <div class="card">
+                        <img src="./images/home2-Photoroom.png" alt="" class=" card-img d-block w-100" height="600px">
+                        <div class="card-img-overlay d-flex flex-column justify-content-center text-center text-light ">
+                            <h1>BEST QUALITY UTENSILS</h1>
+                            <p>"Cook like a pro with our top-of-the-SHINE kitchen utensils."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="./images/1000_F_197316128_aMvPS7TbVPZ4uyoVqWy68dz3OEBzErLe (1)-Photoroom.png" alt=""
+                            class="card-img d-block w-100" height="600px">
+                        <div
+                            class="card-img-overlay d-flex flex-column justify-content-center secondImg text-center text-light">
+                            <h1>REASONABLE PRICE</h1>
+                            <p>"Tools that make every meal a masterpiece."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="./images/home4.jpg" alt="" class=" card-img d-block w-100" height="600px">
+                        <div class="card-img-overlay d-flex flex-column justify-content-center text-center text-light">
+                            <h1>EXCELLENT SERVICE</h1>
+                            <p>"From prepping to serving, our utensils have you covered."</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+
+        <!-- ============= stores =============== -->
+
+        <div class="container py-5">
+
+            <header class=" text-dark py-4 mb-3 ">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 id="title">OUR POPULAR STORES
+
+                        </h1>
+                    </div>
+                </div>
+            </header>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 stores-card" data-aos="zoom-in-down" data-aos-duration="1000">
+                        <div class="img-card">
+                            <img src="./images/utensil-display-rack-1000x1000-Photoroom.png"
+                                class="card-img-top normal-image" height="372px" alt="...">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28943.01878667007!2d67.00912421083984!3d24.936247900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ff5e0d64253%3A0x566285430e1dc2a5!2sA-ONE%20CROCKERY!5e0!3m2!1sen!2s!4v1720346287600!5m2!1sen!2s"
+                                class=" card-img-top hover-image" width="600" height="368" style="border:0;"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="card-body stores-body text-center">
+
+                            <p class="card-text"><b>Our utensils store, established in 1995, offers a comprehensive
+                                    range of
+                                    kitchen utensils and gadgets. Known for its spacious layout and expert staff, it
+                                    provides a premium shopping experience.</b></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 stores-card" data-aos="zoom-in-down" data-aos-offset="200"
+                        data-aos-duration="1000">
+                        <div class="card-image">
+                            <img src="./images/pngtree-kitchen-utensils-in-a-shop-in-indonesia-photo-picture-image_2843583.jpg"
+                                class="card-img-top real-image" height="372px" alt="...">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28961.657562816774!2d66.96489411083981!3d24.85677210000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e1d30357c1f%3A0xd7c7ba0f3b682fcc!2sCrockery%20King!5e0!3m2!1sen!2s!4v1720346454515!5m2!1sen!2s"
+                                class=" card-img-top affect-image" width="600" height="370" style="border:0;"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="card-body stores-body text-center">
+
+                            <p class="card-text"><b>Opened in 2005, this store caters to the crockery store with a wide
+                                    selection of everyday kitchen essentials. Conveniently located with ample parking,
+                                    it’s
+                                    perfect for family shopping.</b></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 stores-card" data-aos="zoom-in-down" data-aos-offset="250"
+                        data-aos-duration="1000">
+                        <div class="pic-image">
+                            <img src="./images/a-display-of-kitchen-utensils-on-sale-inside-a-morrisons-supermarket-HMWMFM.jpg"
+                                class="card-img-top natural-image" height="372px" alt="...">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28957.700150400167!2d67.02468381083985!3d24.873666399999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f87572f7239%3A0xc43d646b55a23237!2scrockery%20store!5e0!3m2!1sen!2s!4v1720346380129!5m2!1sen!2s"
+                                class=" card-img-top after-image" width="600" height="368" style="border:0;"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="card-body stores-body text-center">
+
+                            <p class="card-text"><b>Launched in 2015, our store targets urban dwellers and offers a
+                                    curated
+                                    selection of modern and trendy kitchenware. It’s a hub for those seeking the latest
+                                    in
+                                    kitchen innovations.</b>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========== CATEGORIES ============== -->
+
+    <section>
+        <div class="container py-3 " id="categories">
+            <header class=" text-dark py-4 mb-3 ">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 id="title">CATEGORIES
+
+                        </h1>
+                    </div>
+                </div>
+            </header>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col" data-aos="fade-up" data-aos-duration="500" data-aos-offset="50">
+                    <div class="card cat-card">
+                        <img src="./images/cookware.jpg" class="card-img-top" alt="an img">
+                        <div class="card-body">
+                            <h2 class="card-title">Cookware</h2>
+                            <a href="./pages/cookware/cookware.html"><button
+                                    class="btn btn-secondary float-end border-1.5  border-dark">VIEW
+                                    PRODUCT</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100">
+                    <div class="card cat-card">
+                        <img src="./images/bakeware.jpg" class="card-img-top" alt="an img">
+                        <div class="card-body">
+                            <h2 class="card-title">Bakeware</h2>
+                            <a href="./pages/bakeware/bakeware.html"><button
+                                    class="btn btn-secondary float-end border-1.5  border-dark">VIEW
+                                    PRODUCT</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col" data-aos="fade-up" data-aos-duration="500" data-aos-offset="150">
+                    <div class="card cat-card">
+                        <img src="./images/drinkware.jpg" class="card-img-top" alt="an img">
+                        <div class="card-body">
+                            <h2 class="card-title">Drinkware</h2>
+                            <a href="./pages/drinkware/drinkware.html"><button
+                                    class="btn btn-secondary float-end border-1.5  border-dark">VIEW
+                                    PRODUCT</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col" data-aos="fade-up" data-aos-duration="500" data-aos-offset="50">
+                    <div class="card cat-card">
+                        <img src="./images/serving.jpg" class="card-img-top cimg" alt="an img">
+                        <div class="card-body">
+                            <h2 class="card-titlr">Serving</h2>
+                            <a href="./pages/serving/serving.html"><button
+                                    class="btn btn-secondary float-end border-1.5  border-dark">VIEW
+                                    PRODUCT</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100">
+                    <div class="card cat-card">
+                        <img src="./images/cutlery.jpg" class="card-img-top cimg" alt="an img">
+                        <div class="card-body">
+                            <h2 class="card-title">Cutlery</h2>
+                            <a href="./pages/cutlery/cutlery.html"><button
+                                    class="btn btn-secondary float-end border-1.5  border-dark">VIEW
+                                    PRODUCT</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col" data-aos="fade-up" data-aos-duration="500" data-aos-offset="150">
+                    <div class="card cat-card">
+                        <img src="./images/crockery.jpg" class="card-img-top cimg" alt="an img">
+                        <div class="card-body">
+                            <h2 class="card-title title">Crockery </h2>
+                            <a href="./pages/crockery/crockery.html"><button
+                                    class="btn btn-secondary float-end border-1.5  border-dark">VIEW
+                                    PRODUCT</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- ====== COMPARISON PAGE ======== -->
+    <section>
+        <div class="container py-5" id="comparison">
+            <header class=" text-dark py-4 mb-3 ">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 id="title">COMPARISON WITH SPECIFICATIONS
+
+                        </h1>
+                    </div>
+                </div>
+            </header>
+            <div class="form-group p-2">
+                <label for="product1" class="fs-3">Select product1:</label>
+                <select class="form-select form-select-lg" id="product1">
+                    <option value="">Select a product</option>
+                    <option value="product1">Steel</option>
+                    <option value="product2">Non-stick</option>
+                    <option value="product3">Single glaze</option>
+                    <option value="product4">Double glaze</option>
+                    <option value="product5">Marble</option>
+                </select>
+            </div>
+            <div class="form-group p-2 mb-1">
+                <label for="product2" class="fs-3">Select product2:</label>
+                <select class="form-select form-select-lg" id="product2">
+                    <option value="">Select a product</option>
+                    <option value="product1">Steel</option>
+                    <option value="product2">Non-stick</option>
+                    <option value="product3">Single glaze</option>
+                    <option value="product4">Double glaze</option>
+                    <option value="product5">Marble</option>
+                </select>
+            </div>
+            <button class="btn btn-secondary btn-lg" id="compareButton" onclick="compareproducts()">COMPARE</button>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>FEATURE</th>
+                        <th>PRODUCT:1</th>
+                        <th>PRODUCT:2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fw-bold">Name</td>
+                        <td id="product1-name"></td>
+                        <td id="product2-name"></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Quality</td>
+                        <td id="product1-quality"></td>
+                        <td id="product2-quality"></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Price</td>
+                        <td id="product1-price"></td>
+                        <td id="product2-price"></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Material</td>
+                        <td id="product1-material"></td>
+                        <td id="product2-material"></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Size</td>
+                        <td id="product1-size"></td>
+                        <td id="product2-size"></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Weight</td>
+                        <td id="product1-weight"></td>
+                        <td id="product2-weight"></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Durability</td>
+                        <td id="product1-durability"></td>
+                        <td id="product2-durability"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- ========= ABOUT PAGE ======== -->
+    <section>
+        <div class="container" id="aboutpg">
+            <header class=" text-dark py-4 mb-3 ">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 id="title">ABOUT US
+
+                        </h1>
+                    </div>
+                </div>
+            </header>
+
+            <div class="row py-5 mb-3 text-center">
+                <div class="col-12 col-md-12 col-lg-6 p-4" data-aos="zoom-in" data-aos-duration="700"
+                    data-aos-offset="100">
+                    <h5>WHO WE ARE</h5>
+
+                    <h2>Your Source of the Best Kitchen <strong>Shine Utensils</strong> </h2>
+
+                    <p>"The Shine Utensils" is a renowned utensils shop known for its wide variety of high-quality
+                        kitchen
+                        utensils.</p>
+
+
+                    <h4> Our Stores</h4>
+
+                    <p>"Visit our beautifully designed stores, each offering a unique shopping experience tailored to
+                        your
+                        needs. Explore our extensive range of premium kitchenware in a warm and welcoming environment."
+                    </p>
+
+                    <h4>Our Products</h4>
+
+                    <p>"At Shine Utensils, we offer a diverse selection of high-quality kitchenware designed to meet all
+                        your culinary needs. From elegant cookware to innovative gadgets, our products combine
+                        functionality
+                        with style."</p>
+
+                    <strong>"Think once , think twice , think <b class="ab-shine">Shine</b>
+                        <p><b class="ab-shine">Shine</b> brightens your Kitchen"</p>
+                    </strong>
+
+
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-6" data-aos="zoom-in" data-aos-duration="700" data-aos-offset="">
+                    <img src="./images/image-500x500.jpg" class="img-fluid ab-img" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========SLIDER ================ -->
+    <section>
+        <div class="text-wrapper">
+            <h1 class="wraphead">6 Months Warranty On All Products</h1>
+            <h1 class="wraphead">Hurry up! the sale is going on!</h1>
+            <h1 class="wraphead">First come , first served</h1>
+        </div>
+
+
+
+        <!-- ========= DISCOUNT PAGE ============= -->
+
+        <div class="container py-5">
+            <header class=" text-dark py-3 mb-2 ">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 id="title">PROMOTIONS
+
+                        </h1>
+                    </div>
+                </div>
+            </header>
+
+            <div class="row py-5 text-center">
+                <div class="col-12 col-md-12 col-lg-6 p-4" data-aos="zoom-in-up" data-aos-duration="1000">
+
+                    <h2>EXCLUSIVE DISCOUNTS ON PREMIUM <strong class="dic-shine">Shine Utensils</strong> </h2>
+
+                    <p class="py-3"> "Upgrade your kitchen with our premium Shine Utensils at unbeatable prices! Enjoy
+                        exclusive discounts up to 50% off on our entire range. Don't miss out on these fantastic
+                        savings—shop now and bring elegance and efficiency to your kitchen with Shine Utensils!"</p>
+
+                    <strong class="dic-para">VALID UNTIL 31/08/2024 at 23:59</strong>
+                    <div>
+                        <button class="btn mt-4 py-2 fw-bold dic-but" onclick="run()">DISCOVER THE OFFER</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <img src="./images/discount-image.jfif" class="img-fluid dic-img" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ===== Offer ======== -->
+
+
+        <div class="container py-5" id="offer">
+            <header class=" text-dark  mb-3">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 id="title">DISCOVER OFFER
+
+                        </h1>
+                    </div>
+                </div>
+            </header>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 justify-content-center">
+                <div class="col">
+                    <div class="card dscards">
+                        <img src="./images/image-300x300 (43).jpg" class="card-img-top img" alt="an img">
+                        <div class="position-absolute price">
+                            <button class="btn btn-danger btn-sm text-light m-2 ">20% 0ff</button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title offer-cards">Square mould</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card dscards">
+                        <img src="./images/cooking set (2).jpg" class="card-img-top img" alt="an img">
+                        <div class="position-absolute price">
+                            <button class="btn btn-danger btn-sm text-light m-2 ">10% 0ff</button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title offer-cards">Cooking set</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card dscards">
+                        <img src="./images/cutlery.jpg" class="card-img-top" alt="an img">
+                        <div class="position-absolute price">
+                            <button class="btn btn-danger btn-sm text-light m-2 ">15% 0ff</button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title offer-cards">Cutlery set</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card dscards">
+                        <img src="./images/gl set.jpg" class="card-img-top img" alt="an img">
+                        <div class="position-absolute price">
+                            <button class="btn btn-danger btn-sm text-light m-2 ">30% 0ff</button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title offer-cards">glass set</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card dscards">
+                        <img src="./images/pan set.jpg" class="card-img-top img" alt="an img">
+                        <div class="position-absolute price">
+                            <button class="btn btn-danger btn-sm text-light m-2 ">25% 0ff</button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title offer-cards">Fry pan set</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card dscards">
+                        <img src="./images/steel.jpg" class="card-img-top img" alt="an img">
+                        <div class="position-absolute price">
+                            <button class="btn btn-danger btn-sm text-light m-2 ">40% 0ff</button>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title offer-cards">Steel set</h4>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======== CONTACT PAGE ========= -->
+
+    <section>
+        <div class="main" id="contactpg" data-aos="fade-up" data-aos-duration="1000">
+            <div class="img-main">
+                <div class="container contact-pg">
+                    <header class="text-light py-4 mb-3">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1 id="title">Send us a Message</h1>
+                                <p>"Drop Us a Line – We’re Listening!"</p>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="card contact-card" data-aos="zoom-out" data-aos-duration="1000">
+                        <div class="card-body">
+                            <div class="form-floating mb-2">
+                                <input type="text" class="form-control" id="floatingName" placeholder="Your Name">
+                                <label for="floatingName">Your Name</label>
+                                <small id="span1"></small>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                                <small id="span2"></small>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <textarea class="form-control" placeholder="Leave a comment here" rows="2"
+                                    id="floatingTextbox"></textarea>
+                                <label for="floatingTextarea">Message</label>
+                                <small id="span3"></small>
+                            </div>
+                        </div>
+                        <div class="cont-sub text-end me-4 mb-3">
+                            <button class="btn btn-warning btn submit" type="button" onclick="check()">SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="form-modal" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center m-5">
+                    <h1 class="mb-4">Thank You!</h1>
+                    <h5 class="mb-4">Your details have been successfully submitted. Thanks!</h5>
+                    <button class="btn btn-dark px-5 py-2 text-warning mt-3" data-bs-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ====== REVIEWS =========== -->
+
+    <section>
+
+        <div class="container" id="reviews">
+            <header class=" text-dark py-5 mb-3 ">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 id="title">REVIEWS
+                        </h1>
+                    </div>
+                </div>
+            </header>
+
+            <div id="testimonial_area" class="section_padding">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="testmonial_slider_area text-center owl-carousel">
+                            <div class="box-area">
+                                <div class="img-area">
+                                    <img src="./images/1.jpg" alt="">
+                                </div>
+                                <h5>BILGATES</h5>
+                                <span>Designation Goes Here</span>
+                                <p class="content">
+                                    "The quality of these utensils is outstanding, and they look great in my kitchen."
+
+                                </p>
+
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="socials">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+
+                            <div class="box-area">
+                                <div class="img-area">
+                                    <img src="./images/2.jpg" alt="">
+                                </div>
+                                <h5>DEVIN ELV</h5>
+                                <span>Designation Goes Here</span>
+                                <p class="content">
+                                    "I love the stylish design and how durable these utensils are for everyday use."
+                                </p>
+
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="socials">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+
+                            <div class="box-area">
+                                <div class="img-area">
+                                    <img src="./images/3.jpg" alt="">
+                                </div>
+                                <h5>JEYA</h5>
+                                <span>Designation Goes Here</span>
+                                <p class="content">
+                                    "These utensils are a fantastic addition to my kitchen,making cooking more
+                                    enjoyable."
+                                </p>
+
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="socials">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+
+                            <div class="box-area">
+                                <div class="img-area">
+                                    <img src="./images/4.jpg" alt="">
+                                </div>
+                                <h5>JACK</h5>
+                                <span>Designation Goes Here</span>
+                                <p class="content">
+                                    "These utensils more incredibly sturdy and add a touch of elegance to my kitchen."
+                                </p>
+
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="socials">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+
+                            <div class="box-area">
+                                <div class="img-area">
+                                    <img src="./images/5.jpg" alt="">
+                                </div>
+                                <h5>JOLLY</h5>
+                                <span>Designation Goes Here</span>
+                                <p class="content">
+                                    "I am thrilled with the high quality,funtastic and beautiful design of these
+                                    utensils."
+                                </p>
+
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="socials">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+
+                            <div class="box-area">
+                                <div class="img-area">
+                                    <img src="./images/6.jpg" alt="">
+                                </div>
+                                <h5>SAMONA</h5>
+                                <span>Designation Goes Here</span>
+                                <p class="content">
+                                    "These utensils have made meal preparation much easier and more enjoyable."
+                                </p>
+
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="socials">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ==========feedback form ================ -->
+
+    <section class="py-5" data-aos="fade-up" data-aos-duration="500">
+        <div class="container py-5" id="feedback">
+            <header class="text-dark mb-3">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 id="title">FEEDBACK</h1>
+                        <p>"Shape Our Future: Your Feedback is Essential!"</p>
+                    </div>
+                </div>
+            </header>
+            <div class="form mb-4">
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="floatingUser" placeholder="Your Name">
+                    <label for="floatingUser">Your Name</label>
+                    <small id="feed1"></small>
+                </div>
+                <div class="form-floating mb-2">
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                    <label for="floatingEmail">Email address</label>
+                    <small id="feed2"></small>
+                </div>
+            </div>
+            <h3>Rate Your Experience</h3>
+            <div class="form-group">
+                <label for="quality">Quality of Products:</label>
+                <div class="star-rating" id="quality-rating">
+                    <input type="radio" id="quality5" name="quality" value="5"><label for="quality5"
+                        class="fas fa-star"></label>
+                    <input type="radio" id="quality4" name="quality" value="4"><label for="quality4"
+                        class="fas fa-star"></label>
+                    <input type="radio" id="quality3" name="quality" value="3"><label for="quality3"
+                        class="fas fa-star"></label>
+                    <input type="radio" id="quality2" name="quality" value="2"><label for="quality2"
+                        class="fas fa-star"></label>
+                    <input type="radio" id="quality1" name="quality" value="1"><label for="quality1"
+                        class="fas fa-star"></label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="delivery">Delivery Experience:</label>
+                <div class="star-rating" id="delivery-rating">
+                    <input type="radio" id="delivery5" name="delivery" value="5"><label for="delivery5"
+                        class="fas fa-star"></label>
+                    <input type="radio" id="delivery4" name="delivery" value="4"><label for="delivery4"
+                        class="fas fa-star"></label>
+                    <input type="radio" id="delivery3" name="delivery" value="3"><label for="delivery3"
+                        class="fas fa-star"></label>
+                    <input type="radio" id="delivery2" name="delivery" value="2"><label for="delivery2"
+                        class="fas fa-star"></label>
+                    <input type="radio" id="delivery1" name="delivery" value="1"><label for="delivery1"
+                        class="fas fa-star"></label>
+                </div>
+            </div>
+            <div class="form-floating mt-5">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Message</label>
+                <small id="feed3"></small>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-warning mt-3" type="button" onclick="sub()">SUBMIT FEEDBACK</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="feed-modal" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center m-5">
+                    <h1 class="mb-4">Thank You!</h1>
+                    <h5 class="mb-4">Your details have been successfully submitted. Thanks!</h5>
+                    <button class="btn btn-dark px-5 py-2 text-warning mt-3" data-bs-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= footer ========== -->
+
+    <footer class="footer text-light py-4">
+        <div class="container ">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-info">
+                    <a href="./index.html" class="d-flex align-items-center mb-4 ">
+                        <img src="./images/yello shine with white color.png" width="130px" height="150px"
+                            class="img-fluid">
+                    </a>
+                    <p>Shine Utensils has offered elegant, durable kitchenware. Discover the perfect blend of quality
+                        and innovation for a delightful cooking experience.</p>
+
+                    <div class="social-links d-flex mt-4 ">
+                        <a href="https://www.twitter.com" target="_blank"><i
+                                class="fa-brands fa-twitter foot-icons"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"><i
+                                class="fa-brands fa-facebook foot-icons"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i
+                                class="fa-brands fa-instagram foot-icons"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i
+                                class="fa-brands fa-linkedin foot-icons"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6 footer-links mb-3">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li>
+                            <a href="#myCarousel">Home</a>
+                        </li>
+                        <li>
+                            <a href="#aboutpg">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#categories">Categories</a>
+                        </li>
+                        <li>
+                            <a href="#comparison">Comparison</a>
+                        </li>
+                        <li>
+                            <a href="#feedback">Feedback</a>
+                        </li>
+                        <li>
+                            <a href="#reviews">Customer Reviews</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6 footer-links mb-3">
+                    <h4>Our Categories</h4>
+                    <ul>
+                        <li>
+                            <a href="./pages/cookware/cookware.html">Cookware</a>
+                        </li>
+                        <li>
+                            <a href="./pages/bakeware/bakeware.html">Bakeware</a>
+                        </li>
+                        <li>
+                            <a href="./pages/drinkware/drinkware.html">Drinkware</a>
+                        </li>
+                        <li>
+                            <a href="./pages/serving/serving.html">Serving</a>
+                        </li>
+                        <li>
+                            <a href="./pages/cutlery/cutlery.html">Cutlery</a>
+                        </li>
+                        <li>
+                            <a href="./pages/crockery/crockery.html">Crockery</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-center">
+                    <h4>Contact Us</h4>
+                    <p>
+                        KDA Civic Center Block -14
+                        <br>
+                        Gulshan-e-Iqbal Karachi -75300
+                        <br>
+                        Pakistan
+                        <br>
+                        <br>
+                        <strong>Phone:</strong>
+                        +923187654561
+                        <br>
+                        <strong>Email:</strong> info@example.com
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center mt-4">
+            <div class="copyright">
+                &copy;copyright <span>
+                    <strong class="strong">Shine Utensils</strong>
+                </span>
+                All Rights Reserved
+            </div>
+
+            <div class="credit">
+                Designed By
+                <a href="#">OurTeam</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========bootstrap =========== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- ============owl-carousel=========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ============= AOS-ANIMATION ================ -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

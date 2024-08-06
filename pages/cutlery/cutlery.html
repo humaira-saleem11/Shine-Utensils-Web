@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cutlery</title>
+  <!-- ----------------------------------------font cdn---------------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- -------------------------------------bootstrap link----------------------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- ======================================= JQUERY ======================================================= -->
+      <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+
+      <!-- ================ AOS-ANIMATION ================= -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <!-- -------------------------------------CSS LINK--------------------------------------------------------->
+  <link rel="stylesheet" href="./cutlery.css">
+</head>
+
+<body>
+  <!-- ====================================navebar======================== -->
+  <nav class=" navbar navbar-expand-md  sticky-top" id="navbar">
+    <div class="container">
+        <a href="" class="navbar-brand"><img src="../../images/yello shine with white color.png" alt="Logo image" data-default-logo="../../images/yello shine with white color.png" data-scrolled-logo="../../images/utensil.png">
+        </a>
+        <button class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around"
+            data-bs-toggle="collapse" data-bs-target="#link">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="link">
+            <ul class="navbar-nav text-center ">
+                <li class="nav-item">
+                    <a href="../../index.html#myCarousel" class="nav-link ">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="../../index.html#categories" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="click">CATEGORIES</a>
+                    <div class="dropdown-menu text-center bg-dark" aria-labelledby="#link">
+                        <a href="../cookware/cookware.html" class="dropdown-item">Cookware</a>
+                        <a href="../bakeware/bakeware.html" class="dropdown-item">Bakeware</a>
+                        <a href="../drinkware/drinkware.html" class="dropdown-item">Drinkware</a>
+                        <a href="../serving/serving.html" class="dropdown-item">Serving</a>
+                        <a href="./cutlery.html" class="dropdown-item">Cutlery</a>
+                        <a href="../crockery/crockery.html" class="dropdown-item">Crockery</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a href="../../index.html#comparison" class="nav-link ">COMPARISON</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../../index.html#aboutpg" class="nav-link ">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../../index.html#contactpg" class="nav-link ">CONTACT</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../../index.html#feedback" class="nav-link ">FEEDBACK</a>
+                </li>
+
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+  <!-- ==============================cutlery============================ -->
+  <div class="color">
+    <div class="container py-5">
+      <h1 class="text-center py-4" data-aos="fade-up"
+      data-aos-duration="1000">Cutlery</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/butter knife.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Butter knife</h4>
+              <p class=" fw-bold"><del>Rs 750</del> <ins>Rs 650</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/dessert fork.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Dessert fork</h4>
+              <p class=" fw-bold"><del>Rs 549</del> <ins>Rs 499</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/dessert spoon.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Dessert spoon</h4>
+              <p class=" fw-bold"><del>Rs 499</del> <ins>Rs 449</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/dinner fork.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Dinner fork</h4>
+              <p class=" fw-bold"><del>Rs 450</del> <ins>Rs 400</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/dinner knife.jpg " class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Dinner knife</h4>
+              <p class=" fw-bold"><del>Rs 399</del> <ins>Rs 319</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/dinner spoon.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Dinner spoon</h4>
+              <p class=" fw-bold"><del>Rs 959</del> <ins>Rs 779</ins></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/kitchen knife.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Kitchen knife</h4>
+              <p class=" fw-bold"><del>RS 899</del> <ins>Rs 749</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/meat fork.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Meat fork</h4>
+              <p class=" fw-bold"><del>Rs 469</del> <ins>Rs 419</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/salad fork.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Salad fork</h4>
+              <p class=" fw-bold"><del>Rs 399</del> <ins>Rs 299</ins></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/serving spoon.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Serving spoon</h4>
+              <p class=" fw-bold"><del>Rs 199</del> <ins>Rs 119</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/soup spoon.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Soup spoon</h4>
+              <p class=" fw-bold"><del>Rs 320</del> <ins>Rs 275</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/steak knife.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Steak knife</h4>
+              <p class=" fw-bold"><del>Rs 599</del> <ins>Rs 399</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/tea spoon.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Tea spoon</h4>
+              <p class=" fw-bold"><del>Rs 599</del> <ins>Rs 399</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/cuttery set.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Cuttery set</h4>
+              <p class=" fw-bold"><del>Rs 599</del> <ins>Rs 399</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/knife set with board.jpg" class="card-img-top img" alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Knife set</h4>
+              <p class=" fw-bold"><del>Rs 599</del> <ins>Rs 399</ins></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card ">
+            <div class="inner">
+              <img src="../../images/cuttery/image-300x300 - 2024-07-10T120129.443.jpg" class="card-img-top img"
+                alt="an img">
+            </div>
+            <div class="position-absolute price">
+              <button class="btn btn-dark btn-sm text-light  m-2" data-bs-toggle="modal" data-bs-target="#mymodal">buy
+                now</button>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+              <i class="fa-solid fa-star icon m-2 mt-3"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Fruit knife</h4>
+              <p class=" fw-bold"><del>Rs 599</del> <ins>Rs 499</ins></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!---------------------------------------- Modal --------------------------------->
+  <div class="modal fade" id="mymodal"  data-bs-backdrop="static">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container justify-content-center">
+            <div class="row">
+              <div class="col">
+                <h5 class="title">Billing Method</h5>
+                <label for="FirstName" class="form-label">First Name:</label>
+                <input type="text" id="firstName" class="form-control inp" placeholder="Ayesha">
+                <span id="firstNameError" class="text-danger"></span>
+                <br>
+                <label for="Email" class="form-label">Email:</label>
+                <input type="email" id="email" class="form-control inp" placeholder="example@example.com">
+                <span id="emailError" class="text-danger"></span>
+                <br>
+                <label for="Address" class="form-label">Address:</label>
+                <input type="text" id="address" class="form-control inp" placeholder="street-block-locality">
+                <span id="addressError" class="text-danger"></span>
+                <br>
+                <label for="City" class="form-label">City:</label>
+                <input type="text" id="city" class="form-control inp" placeholder="Karachi">
+                <span id="cityError" class="text-danger"></span>
+                <br>
+                <label for="ZipCode" class="form-label">Zip Code:</label>
+                <input type="text" id="zipCode" class="form-control inp" placeholder="145-632">
+                <span id="zipCodeError" class="text-danger"></span>
+                <br>
+              </div>
+              <div class="col">
+                <h5 class="title">Payment Method</h5>
+                <label for="NameOnCard" class="form-label">Name on Card:</label>
+                <input type="text" id="nameOnCard" class="form-control inp" placeholder="Ayesha">
+                <span id="nameOnCardError" class="text-danger"></span>
+                <br>
+                <label for="CreditCardNumber" class="form-label">Credit Card Number:</label>
+                <input type="text" id="creditCardNumber" class="form-control inp" placeholder="111-222-333-444">
+                <span id="creditCardNumberError" class="text-danger"></span>
+                <br>
+                <label for="ExpMonth" class="form-label">Exp Month:</label>
+                <input type="text" id="expMonth" class="form-control inp" placeholder="August">
+                <span id="expMonthError" class="text-danger"></span>
+                <br>
+                <label for="ExpYear" class="form-label">Exp Year:</label>
+                <input type="text" id="expYear" class="form-control inp" placeholder="1998">
+                <span id="expYearError" class="text-danger"></span>
+                <br>
+                <label for="State" class="form-label">State:</label>
+                <input type="text" id="state" class="form-control inp" placeholder="Sindh">
+                <span id="stateError" class="text-danger"></span>
+                <br>
+              </div>
+              <div class="row">
+                <div class="col text-center">
+                  <input type="submit" value="Proceed to Checkout" class="btn btn-secondary mt-4"
+                    onclick="validateForm()">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= footer ========== -->
+
+ <footer class="footer text-light py-4">
+  <div class="container ">
+      <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+              <a href="./index.html" class="d-flex align-items-center mb-4 ">
+                <img src="../../images/yello shine with white color.png" width="130px" height="150px" class="img-fluid">
+              </a>
+              <p>Shine Utensils has offered elegant, durable kitchenware. Discover the perfect blend of quality
+                  and innovation for a delightful cooking experience.</p>
+
+              <div class="social-links d-flex mt-4">
+                  <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+          </div>
+          <div class="col-lg-2 col-6 footer-links mb-3">
+              <h4>Useful Links</h4>
+              <ul>
+                  <li>
+                      <a href="../../index.html#myCarousel">Home</a>
+                  </li>
+                  <li>
+                      <a href="../../index.html#aboutpg">About Us</a>
+                  </li>
+                  <li>
+                      <a href="../../index.html#categories">Categories</a>
+                  </li>
+                  <li>
+                      <a href="../../index.html#comparison">Comparision</a>
+                  </li>
+                  <li>
+                      <a href="../../index.html#feedback">Feedback</a>
+                  </li>
+                  <li>
+                      <a href="../../index.html#reviews">Customer Reviews</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-lg-2 col-6 footer-links mb-3">
+              <h4>Our Categories</h4>
+              <ul>
+                  <li>
+                      <a href="../cookware/cookware.html">Cookware</a>
+                  </li>
+                  <li>
+                      <a href="../bakeware/bakeware.html">Bakeware</a>
+                  </li>
+                  <li>
+                      <a href="../drinkware/drinkware.html">Drinkware</a>
+                  </li>
+                  <li>
+                      <a href="../serving/serving.html">Serving</a>
+                  </li>
+                  <li>
+                      <a href="./cutlery.html">Cutlery</a>
+                  </li>
+                  <li>
+                      <a href="../crockery/crockery.html">Crockery</a>
+                  </li>
+              </ul>
+
+          </div>
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+              <h4>Contact Us</h4>
+              <p>
+                  KDA Civic Center Block -14
+                  <br>
+                  Gulshan-e-Iqbal Karachi -75300
+                  <br>
+                  Pakistan
+                  <br>
+                  <br>
+                  <strong>Phone:</strong>
+                  +923187654561
+                  <br>
+                  <strong>Email:</strong> info@example.com
+                  <br>
+              </p>
+          </div>
+      </div>
+  </div>
+
+  <div class="container text-center mt-4">
+      <div class="copyright">
+          &copy;copyright <span>
+              <strong class="strong">Shine Utensils</strong>
+          </span>
+          All Rights Reserved
+      </div>
+
+      <div class="credit">
+          Designed By
+          <a href="#">OurTeam</a>
+      </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+    <!-- ============= AOS-ANIMATION ================ -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+          once: true // Ensure the animation happens only once when scrolling down
+        });
+      </script>
+  <script src="../../app.js"></script>
+</body>
+
+</html>
